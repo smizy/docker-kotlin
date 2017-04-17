@@ -20,6 +20,8 @@ fun main(args: Array<String>) {
 EOS
 
 $ kotlinc hello.kt -include-runtime -d hello.jar
+$ kotlin hello.jar
+Hello, World!
 $ java -jar hello.jar
 Hello, World!
 
