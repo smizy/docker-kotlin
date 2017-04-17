@@ -8,6 +8,7 @@ RUN set -x \
     && apk --no-cache add \
         bash \
         openjdk8-jre \
+        wget \
     && apk --no-cache add --virtual .builddeps \
         curl \
         unzip \
